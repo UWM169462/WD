@@ -50,5 +50,5 @@ print("dla wartosci a=4, b=3, h=2 pole równe jest ", poleTrapez(4,3,2))
 # zad6
 print("zad6")
 
-def iloczynCiag(a=1,b=4, ile=10):
-    for(ile)wynik=
+#def iloczynCiag(a=1,b=4, ile=10):
+#    for(ile)wynik=
