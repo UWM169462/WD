@@ -74,3 +74,4 @@ a=np.arange(2,5,0.2)
 print(a)
 b=a.astype('int8')
 print(b)
+
