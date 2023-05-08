@@ -1,9 +1,19 @@
 import numpy as np
 
-a=np.array([10,20,30,40])
-b = np.arrange(4)
-print(a)
-print(b)
-c=a+b
+# Zad 1
+a = np.array ([2,7,3])
+b = np.arange (3)
+print('zad 1:', a, "*", b, "=", a*b)
+# zad 2
+print("zad2:")
+c = np.array([
+    [2,6,3],
+    [7,4,8]
+])
+d = np.arange(16).reshape(4,4)
 print(c)
-print(b**2)
+print(d)
+# do dokończenia
+
+# zad 3
+print("zad 3:", a, "*", b, "=" a**b )
