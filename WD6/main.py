@@ -16,4 +16,10 @@ print(d)
 # do dokończenia
 
 # zad 3
-print("zad 3:", a, "*", b, "=" a**b )
+print("zad 3:", a, "*", b, "=", a**b )
+
+# Zad 4
+
+a = np.array ([2.6,7.8,3.2])
+b = np.arange (3)
+print('zad 4:', a, "*", b, "=", a*b)

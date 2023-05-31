@@ -53,16 +53,15 @@ print(round(math.pow(math.sin(56),2)+math.pow(pow(4,2)/25+math.log(85,3),1/4),2)
 # Napisz skrypt, który pobiera od użytkownika konsoli liczbę całkowitą n, potem sumuje liczby od 1 do n.
 # W skrypcie sprawdź błędy wczytanych typów wartości przy pomocy składni try/except.
 # Na koniec wyświetl i zapisz wynik do pliku "Zadanie.txt".
-
+plik = open("zadanie5.txt", "w",encoding="utf-8")
 try:
     n = int(input("Podaj n:"))
-
+    suma = sum(range(1, n + 1))
 except:
-    print("Błąd! Zły typ liczb!")
+    suma = "Błąd! Zły typ liczb!"
 
-suma = sum(range(1, n+1))
-plik = open("zadanie5.txt", "w",encoding="utf-8")
-print(suma)
+
 plik.writelines(str(suma))
+print(suma)
 
 plik.close()
