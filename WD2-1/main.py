@@ -111,27 +111,27 @@ else:
 # else:
 #     print(str(a) +' jest pierwsza')
 
-# # Zad 5
-# suma = 0
-# for x in range(1,1000):
-#     check = 0
-#     for i in range(1, x):
-#         if (x % i == 0):
-#             check = check + i
-#     if (check == x):
-#         # print(x)
-#         suma+=1
-# print('liczb idealnych do 1000 jest:'+ str(suma))
+# Zad 5
+suma = 0
+for x in range(1,1000):
+    check = 0
+    for i in range(1, x):
+        if (x % i == 0):
+            check = check + i
+    if (check == x):
+        # print(x)
+        suma+=1
+print('liczb idealnych do 1000 jest:'+ str(suma))
 
-# # Zad 6
-# lista = [2, 4.20 ,3 ,4, 5, 12.3]
-# for x in range(len(lista)):
-#     lista[x]**=2
-# print(lista)
+# Zad 6
+lista = [2, 4.20 ,3 ,4, 5, 12.3]
+for x in range(len(lista)):
+    lista[x]**=2
+print(lista)
 
-# Zad 7
-lista = []
-index = 0
-while index<10:
-    x = input('Podaj liczbę nr ' + index)
-    if
+# # Zad 7
+# lista = []
+# index = 0
+# while index<10:
+#     x = input('Podaj liczbę nr ' + index)
+#     if
