@@ -69,11 +69,69 @@ while licznik<len(lista2):
 else:
     print('koniec listy')
 
-jakasLista = ['a', 3, 4.5, 3, 9, 4]
-l = input("podaj element")
-for element in lista:
-    if pow(int(l), 2) == element:
-        print('tablica zawiera kwadrat elementu')
-# alt:
-if pow(int(l),2) in lista:
+# jakasLista = ['a', 3, 4.5, 3, 9, 4]
+# l = input("podaj element")
+# for element in lista:
+#     if pow(int(l), 2) == element:
+#         print('tablica zawiera kwadrat elementu')
+# # alt:
+# if pow(int(l),2) in lista:
     print('found')
+
+# # Zad1
+# zdanie=input('podaj zdanie');
+# count=1;
+# for a in zdanie:
+#     if a == ' ':
+#         count+=1
+# print('zdanie ma ' + str(count) + ' słów')
+# # alt (lepsze, bo nie liczy podwójnych spacji):
+# print('zdanie ma ' + str(len(zdanie.split())) + ' słów')
+
+# # Zad 2
+# sys.stdout.write('podaj trzy liczby')
+# a=int(sys.stdin.readline())
+# b=int(sys.stdin.readline())
+# c=int(sys.stdin.readline())
+# sys.stdout.write(str(pow(a,b)+c))
+
+# # Zad 3
+# a= input('podaj tekst: ')
+# if (a == a[::-1]):
+#     print('jest palindromem')
+# else:
+#     print('nie jest palindromem')
+
+# # Zad 4
+# a=int(input('podaj liczbę'))
+# for x in range(2, int(a/2+1)):
+#     if a%x==0 or a==1:
+#         print(str(a) + ' nie jest pierwsza')
+#         break
+# else:
+#     print(str(a) +' jest pierwsza')
+
+# # Zad 5
+# suma = 0
+# for x in range(1,1000):
+#     check = 0
+#     for i in range(1, x):
+#         if (x % i == 0):
+#             check = check + i
+#     if (check == x):
+#         # print(x)
+#         suma+=1
+# print('liczb idealnych do 1000 jest:'+ str(suma))
+
+# # Zad 6
+# lista = [2, 4.20 ,3 ,4, 5, 12.3]
+# for x in range(len(lista)):
+#     lista[x]**=2
+# print(lista)
+
+# Zad 7
+lista = []
+index = 0
+while index<10:
+    x = input('Podaj liczbę nr ' + index)
+    if
