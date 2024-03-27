@@ -29,3 +29,5 @@ def zad5(l):
 print(zad5(3))
 
 #zad6
+import sys
+sys.stdout.write()
