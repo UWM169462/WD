@@ -69,3 +69,4 @@ print(df.groupby(['Kontynent']).agg({'Populacja':['sum']}))
 iris=pd.read_csv('iris.data', header=None, sep=',')
 print(iris)
 irisXmlObj=oxl.open()
+# W zasadzie wygląda na skończone? idk skąd te ostatnie 3 linijki
